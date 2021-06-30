@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "67225926582",
+    "project_id": "rn-movie-finder",
+    "storage_bucket": "rn-movie-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67225926582:android:9096946b4dbe6726e35f17",
+        "android_client_info": {
+          "package_name": "com.moviefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67225926582-s8gjm5kdt01j08jahvs6777ddsm0q271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxUtMj3X4wPZ3kFzPqY7d-TTSREo875wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67225926582-s8gjm5kdt01j08jahvs6777ddsm0q271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67225926582:android:5e40669b04834a33e35f17",
+        "android_client_info": {
+          "package_name": "com.moviefinder.cherry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67225926582-83329f9215na0ms0ofqf01i5rj02860s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moviefinder.cherry",
+            "certificate_hash": "2a4ff0c2e6f1b3c20a62a9f5114cb3ea4bea6d9a"
+          }
+        },
+        {
+          "client_id": "67225926582-s8gjm5kdt01j08jahvs6777ddsm0q271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxUtMj3X4wPZ3kFzPqY7d-TTSREo875wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67225926582-s8gjm5kdt01j08jahvs6777ddsm0q271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

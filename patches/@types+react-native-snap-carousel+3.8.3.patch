@@ -1,0 +1,15 @@
+diff --git a/node_modules/@types/react-native-snap-carousel/index.d.ts b/node_modules/@types/react-native-snap-carousel/index.d.ts
+index c21cec7..ebc72b9 100755
+--- a/node_modules/@types/react-native-snap-carousel/index.d.ts
++++ b/node_modules/@types/react-native-snap-carousel/index.d.ts
+@@ -263,7 +263,9 @@ export interface CarouselProps<T> {
+     onBeforeSnapToItem?(slideIndex: number): void;
+ }
+ 
+-export type CarouselProperties<T> = ScrollViewProps & FlatListProps<T> & CarouselProps<T>;
++type FlatListPropsOmit<T> = Omit<FlatListProps<T>, 'renderItem'>;
++
++export type CarouselProperties<T> = ScrollViewProps & FlatListPropsOmit<T> & CarouselProps<T>;
+ 
+ export interface ParallaxImageProps extends ImageProps, AdditionalParallaxProps {
+     /**
